@@ -34,7 +34,10 @@ const Layout = ({ children }) => {
 
       <TopLeftImg />
       <Nav />
-      <Header />
+      <div className='mb-20 md:mb-3'>
+      <Header/>
+      </div>
+      
 
       {/* main content */}
       {children}
