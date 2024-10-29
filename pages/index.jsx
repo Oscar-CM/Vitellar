@@ -11,14 +11,14 @@ const Home = () => {
     <div className="bg-primary/60 h-full">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto mt-20 ">
+        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto ">
           {/* title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-3xl font-bold mb-2"
+            className="text-3xl font-bold mb-2 mt-[150px]"
           >
             Affordable Freelancing <br /> In The{" "}
             <span className="text-orange-400">Global Village</span>
@@ -39,13 +39,13 @@ const Home = () => {
             Let us help with that extra work!
           </motion.p>
 
-          <p className="text-orange-500 font-semibold">
+          <div className="text-orange-500 font-semibold">
             <p className="text-orange-500 font-poppins text-pretty">
               NOTE: We accept payment on delivery
             </p>
             Our Contact Details
   
-          </p>
+          </div>
           <p className="font-semibold mt-3">
             Whatsapp: +254756699334 <br />
             Telegram: +254756699334 <br />
