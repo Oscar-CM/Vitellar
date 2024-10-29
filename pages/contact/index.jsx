@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 import { fadeIn } from "../../variants";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
